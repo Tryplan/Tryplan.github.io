@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "王祥彬"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "广东·广州"
   email            :
