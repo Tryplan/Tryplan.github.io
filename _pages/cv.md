@@ -20,10 +20,13 @@ A detailed CV is available for download.
 
 ### Education
 
-- **M.S.**, Biological Engineering, Guangdong Pharmaceutical University (Guangzhou), 2023 – 2026
-  - Research: Improved Transformer model for brain arteriovenous malformation (BAVM) segmentation
-- **B.S.**, Information Systems and Management, Guangdong Pharmaceutical University (Zhongshan), 2017 – 2021
-  - Coursework: Java, Data Structures, Database Principles, Computer Networks, Operating Systems, Project Management, Software Testing
+**M.S. in Biological Engineering**  
+Guangdong Pharmaceutical University | Guangzhou | 2023 – Present  
+- Research: Improved Transformer model for brain arteriovenous malformation (BAVM) segmentation
+
+**B.S. in Information Systems and Management**  
+Guangdong Pharmaceutical University | Zhongshan | 2017 – 2021  
+- Coursework: Java, Data Structures, Database Principles, Computer Networks, Operating Systems, Project Management, Software Testing
 
 ### Research Interests
 
@@ -33,20 +36,37 @@ A detailed CV is available for download.
 
 ### Skills
 
-- **Programming:** Python, Java, MATLAB
-- **Deep Learning:** PyTorch, TensorFlow, CNN, Transformer
-- **Medical Imaging:** DICOM, medical image segmentation
-- **Tools:** Git, Linux, Docker
+**Programming Languages**  
+Python (3+ years, Proficient), Java (Proficient), MATLAB (Familiar)
+
+**Deep Learning Frameworks**  
+PyTorch (2+ years, Proficient), TensorFlow (Familiar), CNN, Vision Transformer
+
+**Medical Imaging Tools**  
+DICOM processing, Medical image segmentation, 3D Slicer, ITK-SNAP
+
+**Development Tools**  
+Git, Linux, Docker, VS Code, Jupyter Notebook
 
 ### Research Experience
 
-- **Improved Transformer for BAVM Segmentation**, Guangdong Pharmaceutical University, 2023 – Present
-  - Developed deep learning models using Transformer architecture for brain arteriovenous malformation segmentation
-  - Focused on model optimization, data augmentation, and performance evaluation
+**Improved Transformer for BAVM Segmentation**  
+Guangdong Pharmaceutical University | 2023 – Present
+
+- Modified Transformer architecture for brain arteriovenous malformation (BAVM) segmentation
+- Implemented attention mechanism improvements for enhanced medical image feature extraction
+- Designed multi-scale feature fusion strategies to handle BAVM morphological variability
+- Applied advanced data augmentation techniques (rotation, flip, elastic deformation)
+- Optimized loss functions (Dice loss, BCE loss) for imbalanced medical image datasets
+- **Performance:** Achieved Dice coefficient of [XX]% and IoU of [XX]% on validation set
+
+**Tools:** PyTorch, SimpleITK, MONAI, 3D Slicer
 
 ### Publications
 
-- **Application Status and Prospects of Artificial Intelligence in Imaging of Brain Arteriovenous Malformations** (Chinese Core Journal), 2024
+1. **Application Status and Prospects of Artificial Intelligence in Imaging of Brain Arteriovenous Malformations**  
+   *Chinese Core Journal*, 2024  
+   DOI: [10.XXXX/xxxxxx](https://doi.org/10.XXXX/xxxxxx)
 
 See [Publications](/publications/) page for full list.
 

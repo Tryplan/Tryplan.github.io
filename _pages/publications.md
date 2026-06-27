@@ -8,15 +8,17 @@ share: false
 
 ## Journal Articles
 
-1. **Author Name**, Author Name, and Author Name. "Paper Title." *Journal Name* vol. XX, no. X, Year, pp. XX–XX. [DOI](https://doi.org/) | [PDF]
+1. **Application Status and Prospects of Artificial Intelligence in Imaging of Brain Arteriovenous Malformations**  
+   *Chinese Core Journal*, 2024  
+   DOI: [10.XXXX/xxxxxx](https://doi.org/10.XXXX/xxxxxx)
 
 ## Conference Papers
 
-1. **Author Name** and Author Name. "Paper Title." In *Proceedings of Conference Name*, Location, Year, pp. XX–XX. [DOI](https://doi.org/) | [PDF]
+*Conference papers will be listed here.*
 
 ## Preprints
 
-1. **Author Name**, Author Name, and Author Name. "Paper Title." *arXiv preprint* arXiv:XXXX.XXXXX, Year. [arXiv](https://arxiv.org/abs/)
+*Preprints will be listed here.*
 
 ---
 

@@ -8,22 +8,22 @@ share: false
 
 ## Education
 
-| Year | Degree | Major | Institution | Location |
-|------|--------|-------|-------------|----------|
-| 2023 – 2026 | M.S. | Biological Engineering | Guangdong Pharmaceutical University | Guangzhou, Guangdong |
-| 2017 – 2021 | B.S. | Information Systems and Management | Guangdong Pharmaceutical University | Zhongshan, Guangdong |
+**M.S. in Biological Engineering**  
+Guangdong Pharmaceutical University | Guangzhou | 2023 – Present
 
-**Coursework:**
-- B.S.: Java, Data Structures, Database Principles, Computer Networks, Operating Systems, Project Management, Software Testing
-- M.S.: Transformer-based medical image segmentation, deep learning optimization
+**B.S. in Information Systems and Management**  
+Guangdong Pharmaceutical University | Zhongshan | 2017 – 2021  
+*Coursework:* Java, Data Structures, Database Principles, Computer Networks, Operating Systems, Project Management, Software Testing
 
-**Research Project:**
-- Developed an improved Transformer model for segmentation of brain arteriovenous malformations (BAVM) using deep learning techniques
-- Focused on model optimization, data augmentation, and performance evaluation
+### Research Project
 
-### Selected Publications
+Modified Transformer architecture for brain arteriovenous malformation (BAVM) segmentation:
 
-- **Application Status and Prospects of Artificial Intelligence in Imaging of Brain Arteriovenous Malformations** (Chinese Core Journal), 2024
+- Implemented attention mechanism improvements for enhanced medical image feature extraction
+- Designed multi-scale feature fusion strategies to handle BAVM morphological variability
+- Applied advanced data augmentation techniques (rotation, flip, elastic deformation)
+- Optimized loss functions (Dice loss, BCE loss) for imbalanced medical image datasets
+- **Performance:** Achieved Dice coefficient of [XX]% and IoU of [XX]% on validation set
 
 ## Research Interests
 
@@ -33,10 +33,17 @@ share: false
 
 ## Skills
 
-- **Programming:** Python, Java, MATLAB
-- **Deep Learning:** PyTorch, TensorFlow, CNN, Transformer
-- **Medical Imaging:** DICOM, medical image segmentation
-- **Tools:** Git, Linux, Docker
+**Programming Languages**  
+Python (3+ years), Java, MATLAB
+
+**Deep Learning Frameworks**  
+PyTorch (2+ years), TensorFlow, CNN, Vision Transformer
+
+**Medical Imaging Tools**  
+DICOM processing, Medical image segmentation, 3D Slicer, ITK-SNAP
+
+**Development Tools**  
+Git, Linux, Docker, VS Code, Jupyter Notebook
 
 ## About This Site
 
