@@ -1,18 +1,35 @@
 ---
 permalink: /truth-or-dare/
-title: "真心话 &amp; 大冒险"
+title: "真心话 & 大冒险"
 layout: splash
 header:
   overlay_color: "#1a0a1a"
 ---
 
 <style>
+  .page__hero,
+  .page__lead,
+  .page__hero--overlay,
+  .wrapper .page__inner-wrap .page__hero {
+    display: none !important;
+  }
+
+  .page__inner-wrap {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .splash .page__content {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   .game-container {
     min-height: 100vh;
-    background: linear-gradient(135deg, #1a0a1a 0%, #2d1525 50%, #1a0a1a 100%);
+    background: linear-gradient(180deg, #1a0a1a 0%, #2d1525 50%, #1a0a1a 100%);
     position: relative;
     overflow: hidden;
-    margin: -1em -1em -1em -1em;
+    margin: 0;
     padding: 0;
   }
 
@@ -76,39 +93,41 @@ header:
   /* Start Screen */
   .couple-names {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+    position: relative;
   }
 
   .couple-names h1 {
     font-family: "STKaiti", "KaiTi", "楷体", serif;
-    font-size: 3em;
+    font-size: 2.8em;
     color: #fff;
     margin: 0;
-    letter-spacing: 0.15em;
-    text-shadow: 0 0 30px rgba(255, 105, 135, 0.5);
+    letter-spacing: 0.2em;
+    text-shadow: 0 0 40px rgba(255, 105, 135, 0.4);
+    font-weight: 500;
   }
 
   .heart-divider {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: 18px 0;
   }
 
   .heart-divider::before,
   .heart-divider::after {
     content: "";
-    flex: 1;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #ff6987, transparent);
-    max-width: 80px;
+    width: 50px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 105, 135, 0.5), transparent);
   }
 
   .heart-divider .divider-heart {
     color: #ff6987;
-    font-size: 1.5em;
-    margin: 0 15px;
-    animation: pulse 1.5s ease-in-out infinite;
+    font-size: 1.3em;
+    margin: 0 18px;
+    animation: pulse 2s ease-in-out infinite;
+    text-shadow: 0 0 20px rgba(255, 105, 135, 0.6);
   }
 
   @keyframes pulse {
@@ -116,45 +135,123 @@ header:
     50% { transform: scale(1.2); }
   }
 
-  .game-subtitle {
+  .start-banner {
+    width: 100%;
+    max-width: 480px;
+    background: linear-gradient(135deg, rgba(255, 105, 135, 0.18) 0%, rgba(255, 80, 120, 0.08) 100%);
+    border: 1px solid rgba(255, 105, 135, 0.35);
+    border-radius: 30px;
+    padding: 45px 30px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 80px;
-  }
-
-  .game-subtitle .title {
-    font-size: 1.5em;
-    letter-spacing: 0.3em;
-    margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.7);
-  }
-
-  .game-subtitle .desc {
-    font-size: 0.95em;
-    letter-spacing: 0.1em;
-    color: rgba(255, 255, 255, 0.5);
-  }
-
-  .start-btn {
-    background: linear-gradient(135deg, #ff6987 0%, #e94560 100%);
-    color: white;
-    border: none;
-    padding: 18px 80px;
-    font-size: 1.3em;
-    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 30px rgba(233, 69, 96, 0.4);
-    letter-spacing: 0.1em;
+    margin-bottom: 35px;
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
   }
 
-  .start-btn:hover {
+  .start-banner::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 105, 135, 0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .start-banner:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255, 105, 135, 0.6);
+    box-shadow: 0 15px 50px rgba(255, 80, 120, 0.25);
+  }
+
+  .banner-title {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    margin-bottom: 10px;
+    text-shadow: 0 0 30px rgba(255, 105, 135, 0.5);
+    position: relative;
+    z-index: 1;
+  }
+
+  .banner-desc {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.9em;
+    letter-spacing: 0.08em;
+    position: relative;
+    z-index: 1;
+  }
+
+  .banner-icon {
+    font-size: 2.3em;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .difficulty-row {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 480px;
+    margin-bottom: 25px;
+  }
+
+  .diff-pill {
+    flex: 1;
+    padding: 20px 10px;
+    border-radius: 22px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(5px);
+  }
+
+  .diff-pill.warm { border-color: rgba(255, 180, 130, 0.3); color: #ffb482; }
+  .diff-pill.warm:hover {
+    background: rgba(255, 180, 130, 0.08);
+    border-color: rgba(255, 180, 130, 0.6);
     transform: translateY(-2px);
-    box-shadow: 0 12px 40px rgba(233, 69, 96, 0.6);
+    box-shadow: 0 8px 25px rgba(255, 180, 130, 0.15);
+  }
+  .diff-pill.sweet { border-color: rgba(255, 105, 135, 0.35); color: #ff8fa3; }
+  .diff-pill.sweet:hover {
+    background: rgba(255, 105, 135, 0.1);
+    border-color: rgba(255, 105, 135, 0.65);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 105, 135, 0.2);
+  }
+  .diff-pill.spicy { border-color: rgba(255, 60, 90, 0.4); color: #ff6b80; }
+  .diff-pill.spicy:hover {
+    background: rgba(255, 60, 90, 0.1);
+    border-color: rgba(255, 60, 90, 0.7);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 60, 90, 0.2);
   }
 
-  .start-btn:active {
-    transform: translateY(0);
+  .diff-pill-icon {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+
+  .diff-pill-name {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 0.05em;
+  }
+
+  .diff-pill-desc {
+    font-size: 0.72em;
+    opacity: 0.6;
+    letter-spacing: 0.03em;
   }
 
   /* Difficulty Screen */
@@ -611,11 +708,28 @@ header:
       </div>
       <h1>YST</h1>
     </div>
-    <div class="game-subtitle">
-      <div class="title">真心话大冒险</div>
-      <div class="desc">属于你们两个人的浪漫小游戏</div>
+    <div class="start-banner" onclick="startGameWithDifficulty('sweet')">
+      <div class="banner-icon">💝</div>
+      <div class="banner-title">真心话大冒险</div>
+      <div class="banner-desc">属于你们两个人的浪漫小游戏</div>
     </div>
-    <button class="start-btn" onclick="showDifficultyScreen()">▶ 开始游戏</button>
+    <div class="difficulty-row">
+      <div class="diff-pill warm" onclick="startGameWithDifficulty('warm')">
+        <div class="diff-pill-icon">☀️</div>
+        <div class="diff-pill-name">温馨</div>
+        <div class="diff-pill-desc">暖暖日常</div>
+      </div>
+      <div class="diff-pill sweet" onclick="startGameWithDifficulty('sweet')">
+        <div class="diff-pill-icon">💖</div>
+        <div class="diff-pill-name">甜蜜</div>
+        <div class="diff-pill-desc">心动加速</div>
+      </div>
+      <div class="diff-pill spicy" onclick="startGameWithDifficulty('spicy')">
+        <div class="diff-pill-icon">🔥</div>
+        <div class="diff-pill-name">火辣</div>
+        <div class="diff-pill-desc">脸红心跳</div>
+      </div>
+    </div>
   </div>
 
   <!-- Difficulty Screen -->
@@ -911,15 +1025,7 @@ header:
     }
   }
 
-  function showDifficultyScreen() {
-    showScreen("difficultyScreen");
-  }
-
-  function backToStart() {
-    showScreen("startScreen");
-  }
-
-  function selectDifficulty(difficulty) {
+  function startGameWithDifficulty(difficulty) {
     currentDifficulty = difficulty;
     startGame();
   }
@@ -1016,7 +1122,7 @@ header:
 
   function restartGame() {
     if (confirm("确定要重新开始游戏吗？")) {
-      showDifficultyScreen();
+      showScreen("startScreen");
     }
   }
 
