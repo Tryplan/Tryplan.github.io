@@ -8,17 +8,35 @@ share: false
 
 ## Education
 
-| Year | Degree | Institution | Location |
-|------|--------|-------------|----------|
-| 2024 – Present | Ph.D. Candidate | [Institution Name] | City, Country |
-| 2020 – 2023 | M.S. | [Institution Name] | City, Country |
-| 2016 – 2020 | B.S. | [Institution Name] | City, Country |
+| Year | Degree | Major | Institution | Location |
+|------|--------|-------|-------------|----------|
+| 2023 – 2026 | M.S. | Biological Engineering | Guangdong Pharmaceutical University | Guangzhou, Guangdong |
+| 2017 – 2021 | B.S. | Information Systems and Management | Guangdong Pharmaceutical University | Zhongshan, Guangdong |
+
+**Coursework:**
+- B.S.: Java, Data Structures, Database Principles, Computer Networks, Operating Systems, Project Management, Software Testing
+- M.S.: Transformer-based medical image segmentation, deep learning optimization
+
+**Research Project:**
+- Developed an improved Transformer model for segmentation of brain arteriovenous malformations (BAVM) using deep learning techniques
+- Focused on model optimization, data augmentation, and performance evaluation
+
+### Selected Publications
+
+- **Application Status and Prospects of Artificial Intelligence in Imaging of Brain Arteriovenous Malformations** (Chinese Core Journal), 2024
 
 ## Research Interests
 
-- Research Area 1
-- Research Area 2
-- Research Area 3
+- Medical Image Analysis with Deep Learning
+- Transformer-based Segmentation Models
+- Brain Arteriovenous Malformation (BAVM) Detection
+
+## Skills
+
+- **Programming:** Python, Java, MATLAB
+- **Deep Learning:** PyTorch, TensorFlow, CNN, Transformer
+- **Medical Imaging:** DICOM, medical image segmentation
+- **Tools:** Git, Linux, Docker
 
 ## About This Site
 
