@@ -8,11 +8,11 @@ share: false
 
 ## Education
 
-**M.S. in Biological Engineering**  
-Guangdong Pharmaceutical University | Guangzhou | 2023 – Present
+| Year | Degree | Major | Institution | Location |
+|------|--------|-------|-------------|----------|
+| 2023 – Present | M.S. | Biological Engineering | Guangdong Pharmaceutical University | Guangzhou, Guangdong |
+| 2017 – 2021 | B.S. | Information Systems and Management | Guangdong Pharmaceutical University | Zhongshan, Guangdong |
 
-**B.S. in Information Systems and Management**  
-Guangdong Pharmaceutical University | Zhongshan | 2017 – 2021  
 *Coursework:* Java, Data Structures, Database Principles, Computer Networks, Operating Systems, Project Management, Software Testing
 
 ### Research Project

@@ -20,13 +20,13 @@ A detailed CV is available for download.
 
 ### Education
 
-**M.S. in Biological Engineering**  
-Guangdong Pharmaceutical University | Guangzhou | 2023 – Present  
-- Research: Improved Transformer model for brain arteriovenous malformation (BAVM) segmentation
+| Year | Degree | Major | Institution | Location |
+|------|--------|-------|-------------|----------|
+| 2023 – Present | M.S. | Biological Engineering | Guangdong Pharmaceutical University | Guangzhou, Guangdong |
+| 2017 – 2021 | B.S. | Information Systems and Management | Guangdong Pharmaceutical University | Zhongshan, Guangdong |
 
-**B.S. in Information Systems and Management**  
-Guangdong Pharmaceutical University | Zhongshan | 2017 – 2021  
-- Coursework: Java, Data Structures, Database Principles, Computer Networks, Operating Systems, Project Management, Software Testing
+*Research: Improved Transformer model for BAVM segmentation*  
+*Coursework: Java, Data Structures, Database Principles, Computer Networks, Operating Systems, Project Management, Software Testing*
 
 ### Research Interests
 
